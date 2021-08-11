@@ -1,0 +1,99 @@
+[33mcommit 8acedb5b5cf514dee4f250069153b1e219ca8568[m[33m ([m[1;36mHEAD -> [m[1;32mfeature-a[m[33m)[m
+Author: charllesluan <charllesluan@gmail.com>
+Date:   Tue Aug 10 20:37:28 2021 -0300
+
+    utils.js with todo
+
+[33mcommit 4c629c8453e4004dfef261ce1b1799525e8971c6[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: charllesluan <44905144+charllesluan@users.noreply.github.com>
+Date:   Sat Aug 7 16:44:10 2021 -0300
+
+    added package main
+
+[33mcommit add490846c5054c3893af2a26112d4d12f818817[m
+Author: charllesluan <44905144+charllesluan@users.noreply.github.com>
+Date:   Sat Aug 7 16:37:52 2021 -0300
+
+    Create README.md
+
+[33mcommit 09f9b149aded587a09886500f4326224f598ae84[m
+Author: charllesluan <charllesluan@gmail.com>
+Date:   Sat Aug 7 16:09:27 2021 -0300
+
+    added main.go with empty main function
+
+[33mcommit d0fad3bfd54d9cec55e2e211c33838221d082d40[m
+Author: charllesluan <charllesluan@gmail.com>
+Date:   Sat Aug 7 15:04:03 2021 -0300
+
+    added body{} in main.css
+
+[33mcommit c7ffd4459d294e166e8a954115d345ae5253489c[m
+Author: charllesluan <charllesluan@gmail.com>
+Date:   Sat Aug 7 14:15:33 2021 -0300
+
+    added console.log
+
+[33mcommit 14395e7420d27c99648693bc16cd7d519cde9d2c[m
+Author: charllesluan <charllesluan@gmail.com>
+Date:   Sat Aug 7 14:02:22 2021 -0300
+
+    bootstrap project
+
+                   SSUUMMMMAARRYY OOFF LLEESSSS CCOOMMMMAANNDDSS
+
+      Commands marked with * may be preceded by a number, _N.
+      Notes in parentheses indicate the behavior if _N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MMOOVVIINNGG
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or _N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or _N lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or _N lines).
+  b  ^B  ESC-v      *  Backward one window (or _N lines).
+  z                 *  Forward  one window (and set window to _N).
+  w                 *  Backward one window (and set window to _N).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to _N).
+  u  ^U             *  Backward one half-window (and set half-window to _N).
+  ESC-)  RightArrow *  Right one half screen width (or _N positions).
+  ESC-(  LeftArrow  *  Left  one half screen width (or _N positions).
+  ESC-}  ^RightArrow   Right to last column displayed.
+  ESC-{  ^LeftArrow    Left  to first column.
+  F                    Forward forever; like "tail -f".
+  ESC-F                Like F but stop when search pattern is found.
+  r  ^R  ^L            Repaint screen.
+  R                    Repaint screen, discarding buffered input.
+        ---------------------------------------------------
+        Default "window" is the screen height.
+        Default "half-window" is half of the screen height.
+ ---------------------------------------------------------------------------
+
+                          SSEEAARRCCHHIINNGG
+
+  /_p_a_t_t_e_r_n          *  Search forward for (_N-th) matching line.
+  ?_p_a_t_t_e_r_n          *  Search backward for (_N-th) matching line.
+  n                 *  Repeat previous search (for _N-th occurrence).
+  N                 *  Repeat previous search in reverse direction.
+  ESC-n             *  Repeat previous search, spanning files.
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.
+  ESC-u                Undo (toggle) search highlighting.
+  ESC-U                Clear search highlighting.
+  &_p_a_t_t_e_r_n          *  Display only matching lines.
+        ---------------------------------------------------
+        A search pattern may begin with one or more of:
+        ^N or !  Search for NON-matching lines.
+        ^E or *  Search multiple files (pass thru END OF FILE).
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).
+        ^K       Highlight matches, but don't move (KEEP position).
+        ^R       Don't use REGULAR EXPRESSIONS.
+        ^W       WRAP search if no match found.
+ ---------------------------------------------------------------------------
+
+                           JJUUMMPPIINNGG
+
